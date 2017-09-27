@@ -62,7 +62,7 @@ public class MenuActivity extends AppCompatActivity {
     /**
      * 电商交易
      */
-    public void trade(View view){
+    public void tratradede(View view){
         Intent transactionIntent = new Intent(this, AliSdkTransactionActivity.class);
         startActivity(transactionIntent);
     }

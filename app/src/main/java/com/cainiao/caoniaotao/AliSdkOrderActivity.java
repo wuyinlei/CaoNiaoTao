@@ -203,7 +203,7 @@ public class AliSdkOrderActivity extends AppCompatActivity {
         AlibcTrade.show(this, alibcBasePage, alibcShowParams, null, exParams, new DemoTradeCallback());
     }
 
-    class DemoTradeCallback implements AlibcTradeCallback {
+    private class DemoTradeCallback implements AlibcTradeCallback {
 
         @Override
         public void onTradeSuccess(AlibcTradeResult tradeResult) {
