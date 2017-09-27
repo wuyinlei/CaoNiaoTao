@@ -22,6 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+
+        <activity android:name=".AliSdkOrderActivity"/>
+        <activity android:name=".AliSdkTransactionActivity"/>
+        <activity android:name=".AliSdkWebViewProxyActivity"/>
+
     </application>
 
 </manifest>

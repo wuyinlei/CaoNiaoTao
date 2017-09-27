@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/small_margin_size"
-            android:onClick="trade"
+            android:onClick="tratradede"
             android:text="@string/transaction_test"/>
 
         <Button
